@@ -1,0 +1,6 @@
+while True: #(1)
+    print('Please type your name.') #(2)
+    name = input()  #(3)
+    if name == 'your name': #(4)
+        break #(5)
+print('Thank you!') #(6)
